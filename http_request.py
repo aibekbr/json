@@ -20,7 +20,8 @@ to_currency=input("Enter to currency: ")
 amount=int(input("Enter an amount: "))
 print("From currency: ",from_currency )
 print("To currency: ", to_currency)
-print(f"{amount} {from_currency} =",(amount/rates.get(from_currency)*rates.get(to_currency)),f" {to_currency}")
+result=amount/rates.get(from_currency)*rates.get(to_currency)
+print(f"{amount} {from_currency} =",(result),f" {to_currency}")
 
 
     
