@@ -16,7 +16,7 @@ amount=int(input("Enter an amount: "))
 
 result=amount/rates.get(from_currency)*rates.get(to_currency)
 
-print(f"{amount} {from_currency} = {(result)} {to_currency}")
+print(f"{amount} {from_currency} = {result} {to_currency}")
 
 
     
